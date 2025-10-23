@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+.pnp/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac / Linux
+.DS_Store
+/.vscode/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Optional: lockfiles
+package-lock.json
+yarn.lock
+
+# IDEs and editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

@@ -1,0 +1,6 @@
+# Do not use LFS for node_modules; binaries there should not be committed.
+node_modules/** -filter -merge -diff
+
+# Treat lockfiles as text
+package-lock.json text
+yarn.lock text
