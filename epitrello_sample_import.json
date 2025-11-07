@@ -1,0 +1,45 @@
+[
+  {
+    "title": "To Do",
+    "cards": [
+      {
+        "title": "Préparer la démo",
+        "description": "Créer un board d'exemple et préparer le script de présentation.",
+        "labels": ["feature"],
+        "dueDate": "2025-11-02",
+        "status": "todo"
+      },
+      {
+        "title": "Corriger le bug d'affichage",
+        "description": "Fixer le padding sur mobile.",
+        "labels": ["bug","urgent"],
+        "dueDate": "2025-10-20",
+        "status": "todo"
+      }
+    ]
+  },
+  {
+    "title": "En cours",
+    "cards": [
+      {
+        "title": "Implémenter export/import",
+        "description": "Ajouter boutons Export/Import et tests.",
+        "labels": ["feature","enhance"],
+        "dueDate": "2025-11-05",
+        "status": "inprogress"
+      }
+    ]
+  },
+  {
+    "title": "Terminé",
+    "cards": [
+      {
+        "title": "Setup initial",
+        "description": "Initialisation du projet Next.js et Tailwind.",
+        "labels": [],
+        "dueDate": null,
+        "status": "done"
+      }
+    ]
+  }
+]
